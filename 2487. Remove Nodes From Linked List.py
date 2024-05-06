@@ -1,4 +1,9 @@
 # Definition for singly-linked list.
+# You are given the head of a linked list.
+#
+# Remove every node which has a node with a greater value anywhere to the right side of it.
+#
+# Return the head of the modified linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
